@@ -38,7 +38,7 @@ DWORD WINAPI min_max(LPVOID num)
 } 
 int main()
 {
-	std::cin >> n;
+	std::cin >> n; 
 	int*arr = new int[n];
 	for(int i=0; i<n; i++)
 	{
